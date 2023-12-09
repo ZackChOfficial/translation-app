@@ -6,6 +6,7 @@ import ClientProviders from '@/components/clientProvider'
 import FirebaseAuthProvider from '@/components/FirebaseAuthProvider'
 import SubscriptionProvider from '@/components/SubscriptionProvider'
 import { Toaster } from '@/components/ui/toaster'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: 'BabelChat',
@@ -36,6 +37,7 @@ export default function RootLayout({
             </ThemeProvider>
             </SubscriptionProvider>
           </FirebaseAuthProvider>
+          <SpeedInsights />
         </body>
       </html>
     </ClientProviders>
