@@ -10,7 +10,7 @@ BabelChat is a SaaS application enables realtime chat between users with automat
 - Intuitive landing and pricing pages explaining subscription benefits
 
 ### Stack
- - Next.js, Firebase, TypeScript, Stripe, Zustand, Zod, NextAuth, shadcn, Tailwind CSS
+ - Next.js, Firebase, TypeScript, Stripe, Zustand, Zod, NextAuth, shadcn, Tailwind.
 
  ### Demo
 
