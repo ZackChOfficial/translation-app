@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import DemoGif from "../../images/logos/logo.svg"
 
 export default function Home() {
   return (
@@ -18,12 +16,12 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                Chat with Anyone, anywhere!
+              Babel Chat - Chat with Anyone, anywhere!
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
                 you speak your language, they speak their language.{" "}
                 <span className="text-indigo-600 dark:text-indigo-500">
-                  Let At handle translation.
+                  Let AI handle translation.
                 </span>
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -35,14 +33,9 @@ export default function Home() {
             </div>
             <div className="mt-16 flow-root sm:mt-24">
               <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:m-4 lg:rounded-2xl lg:p-4">
-                <Image
-                unoptimized
-                src={DemoGif}
-                alt="App screenshot"
-                width={2432}
-                height={1442}
-                className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-                />
+                <video autoPlay loop width="1000" className="mx-auto">
+                  <source src="/demo.mp4" type="video/mp4" className="mx-auto"/>
+                </video>
               </div>
             </div>
           </div>
